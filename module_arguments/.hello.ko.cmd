@@ -1,0 +1,1 @@
+cmd_/home/allenwang/driverProject/module_arguments/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/allenwang/driverProject/module_arguments/hello.ko /home/allenwang/driverProject/module_arguments/hello.o /home/allenwang/driverProject/module_arguments/hello.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/allenwang/driverProject/scull_device/scull.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/allenwang/driverProject/scull_device/scull.ko /home/allenwang/driverProject/scull_device/scull.o /home/allenwang/driverProject/scull_device/scull.mod.o
