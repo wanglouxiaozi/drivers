@@ -1,0 +1,1 @@
+cmd_/root/drv/proc_file2/proc_test.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/drv/proc_file2/proc_test.ko /root/drv/proc_file2/proc_test.o /root/drv/proc_file2/proc_test.mod.o

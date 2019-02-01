@@ -1,0 +1,1 @@
+cmd_/root/drv/proc_file/proc_file.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/drv/proc_file/proc_file.ko /root/drv/proc_file/proc_file.o /root/drv/proc_file/proc_file.mod.o
